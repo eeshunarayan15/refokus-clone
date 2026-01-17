@@ -4,9 +4,8 @@ import tailwindcss from "@tailwindcss/vite"; // Tailwind plugin import karein
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(), // React plugin
+  plugins: [react(), // React plugin
     tailwindcss(), // Tailwind CSS plugin add karein
   ],
-  base: "/refokus-clone",
+  base: "/",
 });

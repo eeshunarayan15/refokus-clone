@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const Product = ({product,mover,index}) => {
   return (
-    <div className="w-full py-20 h-[23rem] hover:bg-purple-500 text-white ">
+    <div className="w-full py-20 max-h-[23rem] hover:bg-purple-500 text-white ">
           <div onMouseEnter={() => {mover(index)
               
       }} className="max-w-screen-xl mx-auto flex items-center justify-between  ">
@@ -21,4 +21,4 @@ const Product = ({product,mover,index}) => {
   );
 }
 
-export default Product
+export default Product 

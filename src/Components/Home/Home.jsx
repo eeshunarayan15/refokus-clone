@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Work from '../Work/Work'
 import Stripes from '../Stripe/Stripes'
 import Products from '../Products/Products'
